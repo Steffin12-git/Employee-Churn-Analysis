@@ -115,7 +115,7 @@ Organizations face high employee turnover, leading to significant business chall
 * Total predicted leavers in the pilot snapshot: **7** (dashboard circle). The dashboard highlights department-level predicted quit segments (orange) stacked on predicted-to-stay (blue).
 
 **Screenshot used for dashboard preview:**
-`Dashboard picture/Employee_Churn_Report-1.png`
+![Employee Churn Dashboard](Dashboard%20picture/Employee_Churn_Report-1.png)
 
 ---
 
@@ -133,9 +133,7 @@ Organizations face high employee turnover, leading to significant business chall
 > **Interpretation:** Job satisfaction dominates model importance (≈30% contribution in this model). Tenure, number of projects and monthly hours are the next most predictive features. Work accident and salary dummies have minimal direct importance in the trained RandomForest model.
 
 **Feature Importance plot (used to extract values):**
-`plots/Feature importance.png`
-
-
+![Feature Importance](plots/Feature%20importance.png)
 
 ---
 
@@ -190,7 +188,7 @@ The ROC plot in your notebook / visualization shows excellent discrimination:
 > **Model performance summary:** The Random Forest model shows near-perfect separation on the ROC metric (AUC ≈ 0.99). This indicates strong discriminatory power for the pilot/test set — but follow-up checks for **data leakage**, **class imbalance**, and **out-of-sample validation** are recommended before trusting production predictions.
 
 **ROC plot used:**
-`plots/Roc curve of random forest classifiers.png`
+![ROC Curve](plots/Roc%20curve%20of%20random%20forest%20classifiers.png)
 
 ---
 
